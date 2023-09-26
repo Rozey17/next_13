@@ -1,8 +1,16 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
+
+import { Zen_Dots } from "next/font/google";
+const zendots = Zen_Dots({
+  weight: ["400"],
+  display: "swap",
+  subsets: ["latin"],
+  variable:'--font-zendots'
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${zendots.variable}`}>{children}</body>
     </html>
-  )
+  );
 }
