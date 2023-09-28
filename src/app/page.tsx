@@ -72,15 +72,16 @@ export default function Home() {
         </span>
       </div>
 
-      <div className="h-screen relative bg-black">
+      {/* hero */}
+
+      <div className=" relative bg-black">
         <img
-          // src="https://images.pexels.com/photos/2294400/pexels-photo-2294400.jpeg"
           src="https://images.pexels.com/photos/5128291/pexels-photo-5128291.jpeg"
           className="h-full w-full object-cover object-center opacity-70 "
           alt=""
         />
         <div className="absolute inset-0">
-          <div className="relative p-5 h-full space-y-32">
+          <div className="relative p-5 h-full ">
             {/* header */}
             <div className="header font-body">
               <img
@@ -111,7 +112,7 @@ export default function Home() {
               <button className="button-primary">log in</button>
             </div>
 
-            <div className="flex justify-end">
+            <div className="flex justify-end items-center h-full">
               <div className=" w-2/3 ">
                 <div className="space-y-10 ">
                   <div className="space-y-10 ">
@@ -136,10 +137,13 @@ export default function Home() {
                       </span>
                     </div>
 
-                    <h1 className="text-white text-lg ">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Ipsa sint incidunt ipsum soluta distinctio reprehenderit
-                      laboriosam. Placeat quaerat quos nam!
+                    <h1 className="text-white text-xl ">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Dolorem aperiam reiciendis iusto eaque? Officiis autem
+                      magnam eos et quos voluptatem fugiat. Rem impedit soluta
+                      dicta laudantium culpa ipsam at laboriosam, similique
+                      eaque magnam asperiores possimus suscipit, ullam quisquam.
+                      Beatae, accusantium.
                     </h1>
                     <div className="flex justify-end font-body">
                       <button className=" button-primary ">gear up</button>
@@ -148,6 +152,56 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* marquee */}
+
+      <div className="bg-[#F20E0E] ">
+        <div className="relative flex overflow-x-hidden items-center">
+          <div className="text-transparent py-3 animate-marquee whitespace-nowrap text-white">
+            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              dumbbell rows
+            </span>
+
+            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              jump rope
+            </span>
+            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              medicine ball
+            </span>
+            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              kettlebell
+            </span>
+            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              side planks
+            </span>
+            {/* <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              cycle
+            </span> */}
+          </div>
+
+          <div className="absolute top-0 text-transparent py-3 animate-marquee2 whitespace-nowrap text-white">
+            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              dumbbell rows
+            </span>
+
+            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              jump rope
+            </span>
+            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              medicine ball
+            </span>
+            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              kettlebell
+            </span>
+            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              side planks
+            </span>
+            {/* <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
+              cycle
+            </span> */}
           </div>
         </div>
       </div>
