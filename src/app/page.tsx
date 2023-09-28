@@ -113,38 +113,30 @@ export default function Home() {
             </div>
 
             <div className="flex justify-end items-center h-full">
-              <div className=" w-2/3 ">
-                <div className="space-y-10 ">
-                  <div className="space-y-10 ">
+              <div className="w-2/3">
+                <div className="space-y-10">
+                  <div className="space-y-10">
                     <div className="flex  items-center justify-end">
                       {/* <span className="text-white ">-----------</span> */}
                       <p className="text-[#F20E0E] uppercase flex justify-end font-body">
                         plan to fit
                       </p>
                     </div>
-                    <div className="space-y-5 text-right font-body">
-                      <span className="text-7xl font-outline font-bold text-transparent bg-clip-text uppercase">
-                        carve{" "}
-                      </span>
-                      <span className=" text-7xl text-transparent bg-clip-text bg-white font-bold uppercase text-right">
-                        yourself, carve{" "}
-                      </span>
-                      <span className="text-7xl font-outline font-bold text-transparent bg-clip-text uppercase">
-                        your
-                      </span>{" "}
-                      <span className=" text-7xl text-transparent bg-clip-text bg-white font-bold uppercase text-right">
-                        future
-                      </span>
+                    <div className="hero-text">
+                      <span className=" font-outline   ">carve </span>
+                      <span className="   bg-white   ">yourself, carve </span>
+                      <span className=" font-outline   ">your</span>{" "}
+                      <span className="   bg-white   ">future</span>
                     </div>
 
-                    <h1 className="text-white text-xl ">
+                    <p className="text-white text-xl ">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Dolorem aperiam reiciendis iusto eaque? Officiis autem
                       magnam eos et quos voluptatem fugiat. Rem impedit soluta
                       dicta laudantium culpa ipsam at laboriosam, similique
                       eaque magnam asperiores possimus suscipit, ullam quisquam.
                       Beatae, accusantium.
-                    </h1>
+                    </p>
                     <div className="flex justify-end font-body">
                       <button className=" button-primary ">gear up</button>
                     </div>
@@ -158,51 +150,21 @@ export default function Home() {
 
       {/* marquee */}
 
-      <div className="bg-[#F20E0E] ">
-        <div className="relative flex overflow-x-hidden items-center">
-          <div className="text-transparent py-3 animate-marquee whitespace-nowrap text-white">
-            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              dumbbell rows
-            </span>
+      <div className="marquee">
+        <div className=" animate-marquee ">
+          <span className="">dumbbell rows</span>
+          <span className="">jump rope</span>
+          <span className="">medicine ball</span>
+          <span className="">kettlebell</span>
+          <span className="">side planks</span>
+        </div>
 
-            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              jump rope
-            </span>
-            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              medicine ball
-            </span>
-            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              kettlebell
-            </span>
-            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              side planks
-            </span>
-            {/* <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              cycle
-            </span> */}
-          </div>
-
-          <div className="absolute top-0 text-transparent py-3 animate-marquee2 whitespace-nowrap text-white">
-            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              dumbbell rows
-            </span>
-
-            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              jump rope
-            </span>
-            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              medicine ball
-            </span>
-            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              kettlebell
-            </span>
-            <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              side planks
-            </span>
-            {/* <span className="mx-8 text-4xl font-semibold uppercase laptop:text-7xl">
-              cycle
-            </span> */}
-          </div>
+        <div className="absolute top-0  animate-marquee2 ">
+          <span className="">dumbbell rows</span>
+          <span className="">jump rope</span>
+          <span className="">medicine ball</span>
+          <span className="">kettlebell</span>
+          <span className="">side planks</span>
         </div>
       </div>
     </main>

@@ -50,6 +50,30 @@
 .header span a {
   @apply hover:text-[#F20E0E] duration-300 hover:underline hover:underline-offset-4 tracking-wider
 }
+
+.marquee{
+  @apply relative flex overflow-x-hidden items-center bg-[#F20E0E] 
+}
+
+.marquee span{
+  @apply mx-8 text-4xl font-semibold uppercase text-white
+}
+
+.marquee div{
+  @apply text-transparent py-3 whitespace-nowrap 
+}
+
+.hero-text{
+  @apply text-right font-body
+}
+.hero-text span {
+  @apply text-7xl text-transparent bg-clip-text uppercase font-bold
+
+}
+
+.hero-text p{
+  @apply text-white text-xl 
+}
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
