@@ -74,8 +74,8 @@ export default function Home() {
 
       <div className="h-screen relative bg-black">
         <img
-          src="https://images.pexels.com/photos/140955/pexels-photo-140955.jpeg"
-          className="h-full w-full object-cover object-center opacity-70 "
+          src="https://images.pexels.com/photos/2294400/pexels-photo-2294400.jpeg"
+          className="h-full w-full object-cover object-center opacity-80 "
           alt=""
         />
         <div className="absolute inset-0">
@@ -110,7 +110,7 @@ export default function Home() {
               <button className="button-primary">log in</button>
             </div>
 
-            <div className=" flex justify-end">
+            <div className="flex justify-end">
               <div className=" w-2/3 ">
                 <div className="space-y-10 ">
                   <div className="space-y-10 ">
