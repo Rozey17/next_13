@@ -123,10 +123,12 @@ export default function Home() {
                       </p>
                     </div>
                     <div className="hero-text">
-                      <span className=" font-outline   ">carve </span>
-                      <span className="   bg-white   ">yourself, carve </span>
-                      <span className=" font-outline   ">your</span>{" "}
-                      <span className="   bg-white   ">future</span>
+                      <p className="">
+                        <span className=" font-outline   ">carve </span>
+                        <span className="   bg-white   ">yourself, carve </span>
+                        <span className=" font-outline   ">your</span>{" "}
+                        <span className="   bg-white   ">future</span>
+                      </p>
                     </div>
 
                     <p className="text-white text-xl ">

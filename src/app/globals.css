@@ -56,7 +56,7 @@
 }
 
 .marquee span{
-  @apply mx-8 text-4xl font-semibold uppercase text-white
+  @apply mx-8 text-4xl font-semibold uppercase text-white 
 }
 
 .marquee div{
@@ -68,7 +68,6 @@
 }
 .hero-text span {
   @apply text-7xl text-transparent bg-clip-text uppercase font-bold
-
 }
 
 .hero-text p{
