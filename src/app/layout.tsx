@@ -7,9 +7,9 @@ import type { Metadata } from 'next'
 import { Zen_Dots } from "next/font/google";
 const zendots = Zen_Dots({
   weight: ["400"],
-  display: "swap",
+  display: "auto",
   subsets: ["latin"],
-  variable:'--font-zendots'
+  variable: "--font-zendots",
 });
 
 export const metadata: Metadata = {
