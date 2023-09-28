@@ -74,8 +74,9 @@ export default function Home() {
 
       <div className="h-screen relative bg-black">
         <img
-          src="https://images.pexels.com/photos/2294400/pexels-photo-2294400.jpeg"
-          className="h-full w-full object-cover object-center opacity-80 "
+          // src="https://images.pexels.com/photos/2294400/pexels-photo-2294400.jpeg"
+          src="https://images.pexels.com/photos/5128291/pexels-photo-5128291.jpeg"
+          className="h-full w-full object-cover object-center opacity-70 "
           alt=""
         />
         <div className="absolute inset-0">
@@ -116,7 +117,7 @@ export default function Home() {
                   <div className="space-y-10 ">
                     <div className="flex  items-center justify-end">
                       {/* <span className="text-white ">-----------</span> */}
-                      <p className="text-red-500 uppercase flex justify-end font-body">
+                      <p className="text-[#F20E0E] uppercase flex justify-end font-body">
                         plan to fit
                       </p>
                     </div>

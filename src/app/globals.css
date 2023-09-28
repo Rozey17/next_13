@@ -16,7 +16,7 @@
 }
 
 .button-primary{
-  @apply uppercase bg-red-500 px-10 py-3 text-white hover:bg-red-600 hover:duration-300 text-xs
+  @apply uppercase bg-[#F20E0E] px-10 py-3 text-white hover:bg-red-600 hover:duration-300 text-xs
 }
 
 .band {
@@ -28,7 +28,7 @@
 }
 
 .band a {
-  @apply hover:text-red-500 duration-300 
+  @apply hover:text-[#F20E0E] duration-300 
 }
 
 .band p {
@@ -48,7 +48,7 @@
 }
 
 .header span a {
-  @apply hover:text-red-500 duration-300 hover:underline hover:underline-offset-4 tracking-wider
+  @apply hover:text-[#F20E0E] duration-300 hover:underline hover:underline-offset-4 tracking-wider
 }
 /* :root {
   --foreground-rgb: 0, 0, 0;
