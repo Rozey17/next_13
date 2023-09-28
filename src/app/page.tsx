@@ -139,6 +139,7 @@ export default function Home() {
                       eaque magnam asperiores possimus suscipit, ullam quisquam.
                       Beatae, accusantium.
                     </p>
+
                     <div className="flex justify-end font-body">
                       <button className=" button-primary ">gear up</button>
                     </div>

@@ -16,7 +16,7 @@
 }
 
 .button-primary{
-  @apply uppercase bg-[#F20E0E] px-10 py-3 text-white hover:bg-red-600 hover:duration-300 text-xs
+  @apply uppercase bg-[#F20E0E] px-10 py-3 text-white border-transparent duration-300 text-xs hover:-skew-x-12 border-t-4 border-l-4 hover:border-gray-300
 }
 
 .band {
