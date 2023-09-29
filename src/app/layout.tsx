@@ -24,6 +24,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>gym app</title>
+      </head>
       <body className={`${zendots.variable}`}>{children}</body>
     </html>
   );

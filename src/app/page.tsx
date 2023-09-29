@@ -111,13 +111,12 @@ export default function Home() {
               </span>
               <button className="button-primary">log in</button>
             </div>
-
             <div className="flex justify-end items-center h-full">
               <div className="w-2/3">
                 <div className="space-y-10">
                   <div className="space-y-10">
                     <div className="flex  items-center justify-end">
-                      {/* <span className="text-white ">-----------</span> */}
+                      {/* <span className="overline text-white w-20"></span> */}
                       <p className="text-[#F20E0E] uppercase flex justify-end font-body">
                         plan to fit
                       </p>
